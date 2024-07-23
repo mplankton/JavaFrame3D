@@ -33,8 +33,8 @@ public class Main extends JFrame implements KeyListener {
         }
     }
     Main(JPanel p) {
-        ImageIcon icon = new ImageIcon("C:\\Mods\\threeJava\\src\\main\\java\\org\\example\\icon.png");
-        setTitle("Hey guys! We have a gift for you!");
+        ImageIcon icon = new ImageIcon("your icon's file space!");
+        setTitle("your frame's name");
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(width,height);
